@@ -1,0 +1,13 @@
+{
+  "name": "study-checkin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "学习打卡 H5：滑动分步填写 + 打卡墙 + 多人同步（Node 零依赖）",
+  "scripts": {
+    "start": "node server/server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

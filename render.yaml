@@ -1,0 +1,16 @@
+# 学习打卡 · 一键部署（Render 免费实例）
+
+services:
+  - type: web
+    name: study-checkin
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server/server.mjs
+    envVars:
+      - key: GIST_ID
+        sync: false          # 部署时填写：你的 secret gist ID
+      - key: GITHUB_TOKEN
+        sync: false          # 部署时填写：有 gist 读写权限的 token
+      - key: GIST_FILE
+        value: checkins.json

@@ -1,0 +1,35 @@
+{
+  "format": "xlsx",
+  "verdict": "pass",
+  "checks": [
+    {
+      "id": "package",
+      "status": "pass"
+    }
+  ],
+  "summary": {
+    "sheets": [
+      {
+        "name": "\u6253\u5361\u8bb0\u5f55",
+        "cells": 8002,
+        "formulas": 0
+      },
+      {
+        "name": "\u770b\u677f",
+        "cells": 157,
+        "formulas": 130
+      },
+      {
+        "name": "\u6210\u5458",
+        "cells": 4,
+        "formulas": 0
+      },
+      {
+        "name": "\u8bf4\u660e",
+        "cells": 23,
+        "formulas": 0
+      }
+    ],
+    "formulas_evaluated": false
+  }
+}
